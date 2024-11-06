@@ -134,8 +134,8 @@ vote_integration_response = client.put_integration_response(
     },
     responseTemplates={
         "application/json": json.dumps({
-            "yes": 10,
-            "no": 5               
+            "yes": 20,
+            "no": 10               
         })
     }
 )
